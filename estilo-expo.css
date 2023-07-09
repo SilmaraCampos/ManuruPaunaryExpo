@@ -140,3 +140,97 @@ h4{
   display: flex;
   margin: 18px;
 }
+
+
+
+@media screen and (max-width: 390px){
+	nav{
+		padding: 10px 60px;
+		text-align: left;
+		display: flex; 
+		justify-content: space-around; 
+	}
+
+	a{
+		font: 1em 'Noto sans', sans-serif;
+	}
+
+	.a-menu{
+		padding-right: 20px;
+	}
+
+	h1{
+		font: 1.5rem 'Trebuchet MS';
+		text-align: center;
+	}
+
+	p{
+		font: 0.8rem 'Trebuchet MS', Arial, sans-serif;
+		text-align: center;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+	}
+	h3{
+		font-size:1em ;
+		margin-top: 50px; 
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	h4{
+		font-size: 0.6em ;
+		margin-top: 20px; 
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.card {
+		width: 48%; 
+ 	 	margin-bottom: 20px;
+	  }
+
+	.card-footer{
+		display: flex;
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+
+	.img-footer{
+		margin-left: 0.1px;
+		margin-right: 0.1px;
+		height: 130px;
+	}
+
+	.texto-footer p{
+		margin: 0px 0px 10px 0px;
+		text-align: center;
+	}
+
+	.footer-1{
+		right: 10px;
+	}
+
+	.footer-2 a{
+		font-size: 1em;
+	}
+
+	#bt-topo{
+	width: 40px;
+	height: 40px;
+	border-radius: 35px;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+	box-shadow: 0px 5px 10px #636161;
+	transition: 0.2s;
+	}
+	.a-topo{
+	display: flex;
+	margin: 8px;
+	}
+}
