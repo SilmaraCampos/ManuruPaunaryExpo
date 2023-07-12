@@ -65,15 +65,15 @@ h3{
 }
 .card{
 	background-color: #FCFCF6;
-	width: 24%;
+	width: 15%;
 	border-radius: 5px;
 	box-shadow: 10px 10px 10px;
 	color: #CCC;
-	transition: 0.5s;
+	transition: 0.3s;
 
 }
 .card:hover{
-	box-shadow:5px 10px 10px #37B295;
+	box-shadow:5px 10px 10px #4A3369;
 }
 h4{
 	color: #757575;
@@ -109,7 +109,6 @@ h4{
 	text-align: center;
 }
 .footer-2{
-
 	background-color: #000000;
 	padding: 10px;
 }
@@ -139,6 +138,23 @@ h4{
 .a-topo{
   display: flex;
   margin: 18px;
+}
+
+.container-imagens{
+  margin-top: 50px; 
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.container-imagens p{ 
+  color: #000;
+  }
+
+.img-icones{
+  width:30px; 
+  height: 30px;
+  padding: 10px;
 }
 
 
@@ -233,4 +249,4 @@ h4{
 	display: flex;
 	margin: 8px;
 	}
-}
+
